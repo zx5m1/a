@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body{
+    font-size: 16px;
+    font-family:'Roboto',sans-serif;
+    font-weight:normal;
+    color: #1f1f1f;    
+    background:white;
+
+}
+.info2{
+    font-style: italic;
+    font-size: 17px;
+
+}
+.vk{
+    padding:6px 10px;
+    border: rgba(0, 128, 0, 0) solid 2px;
+    background-color: lightgreen;
+    border-radius: 10px;
+}
+.hobby{
+    border: solid rgba(255, 166, 0, 0) 2px;
+    background-color: lightcoral;
+    padding: 0px 12px;
+    border-radius: 10px;
+}
+.cont{
+    max-width: 750px;
+    margin: auto;
+    padding-top: 10px;
+}
+.card p{
+    opacity:0.7;
+}
+.info1{
+    font-style: italic;
+    font-size: 17px;
+    }
+.card p{
+    margin: 0px;
+}
+
+.ava{
+    width: 150px;
+    border-radius: 10px;
+}
+.vk a{
+    text-decoration: none;
+    color: grey;
+}
+.vk a:active{
+    color: black;
+}
+.vk a:hover{
+    color: black;
+    opacity: .9;
+}
+.vk a:visited{
+    color: blue;
+}
+    
+.btn{
+    background: black;
+    color: white;
+    border: none;
+    border-radius: 15%;
+    padding:15px 15px;
+}
+.btn:hover{
+    opacity: .8;
+}
+.hobby:nth-child(odd){
+    font-style: italic;
+}
+.form h3{
+    text-align: center;
+}
+.form-group label {
+display: block;
+color: grey;
+}
+.form-group input,
+.form-group textarea{
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 2px solid grey;
+    color: black;
+    padding: 15px 10px;
+    outline: none;
+    
+}
+
+.form-row{
+margin-bottom: 10px;
+font-family: inherit;
+}
+
+.form-row .form-group:last-child{
+    margin-right: 0px;
+}
+
+.form-row .form-group{
+    display: inline-block;
+    margin-right: 20px;
+    width: calc(50%-20px);
+}
+@media(max-width: 417px){
+    .form-row .form-group{
+        margin-bottom:5px;
+    }
+}
